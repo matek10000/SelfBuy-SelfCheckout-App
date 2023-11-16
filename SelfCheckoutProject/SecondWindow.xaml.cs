@@ -51,5 +51,10 @@ namespace SelfCheckoutProject
             }
             return WhereToEat_text.Text;
         }
+
+        private void Eat_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

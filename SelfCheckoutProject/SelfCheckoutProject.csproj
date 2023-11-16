@@ -8,14 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Graphics\eat_here.png" />
     <None Remove="Graphics\germany_flag.png" />
     <None Remove="Graphics\poland_flag.png" />
+    <None Remove="Graphics\take_away.png" />
     <None Remove="Graphics\uk_flag.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Graphics\eat_here.png" />
     <Resource Include="Graphics\germany_flag.png" />
     <Resource Include="Graphics\poland_flag.png" />
+    <Resource Include="Graphics\take_away.png" />
     <Resource Include="Graphics\uk_flag.png" />
   </ItemGroup>
 

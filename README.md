@@ -43,6 +43,7 @@ Aplikacja Kasa Samoobsługowa ma na celu dostarczenie prostego i intuicyjnego na
 ### 0.0.2 (2023-11-16)
 
 - Utworzenie okna startowego, które umożliwia wybranie jednego z trzech języków.
+- Utworzenie okna, które umożliwia wybór zamówienia "na miejscu" lub "na wynos".
 
 ## Kontakt
 

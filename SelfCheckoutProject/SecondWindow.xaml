@@ -8,7 +8,21 @@
         Title="SelfCheckout" Height="1080" Width="1920" Background="#FFBEDAE6">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="834" Width="1690">
-            <TextBlock x:Name="WhereToEat_text" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72" FontFamily="Impact"/> 
+            <TextBlock x:Name="WhereToEat_text" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72" FontFamily="Impact"/>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Width="1044" Height="643">
+                <Button Width="320" Height="320" Margin="100" Background="Transparent" BorderBrush="black" BorderThickness="3" Click="Eat_Click" Tag="eat">
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="50" Color="White"/>
+                    </Button.Effect>
+                    <Image Source="Graphics/eat_here.png" Width="310" Height="310"/>
+                </Button>
+                <Button Width="320" Height="320" Margin="100" Background="Transparent" BorderBrush="black" BorderThickness="4" Click="Eat_Click" Tag="away">
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="50" Color="White"/>
+                    </Button.Effect>
+                    <Image Source="Graphics/take_away.png" Width="310" Height="310"/>
+                </Button>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>
