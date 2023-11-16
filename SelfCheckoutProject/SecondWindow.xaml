@@ -1,0 +1,14 @@
+﻿<Window x:Class="SelfCheckoutProject.SecondWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SelfCheckoutProject"
+        mc:Ignorable="d"
+        Title="SelfCheckout" Height="1080" Width="1920" Background="#FFBEDAE6">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="834" Width="1690">
+            <TextBlock x:Name="WhereToEat_text" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72" FontFamily="Impact"/> 
+        </StackPanel>
+    </Grid>
+</Window>

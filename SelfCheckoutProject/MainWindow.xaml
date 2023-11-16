@@ -5,8 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SelfCheckoutProject"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="SelfCheckout" Height="1080" Width="1920" Background="#FFBEDAE6">
     <Grid>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="522" Width="1690">
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Width="1080" Height="526">
+                <Button Width="320" Height="320" Margin="20" Background="black" BorderBrush="black" BorderThickness="3" Click="Language_Click" Tag="pl">
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="50" Color="Black"/>
+                    </Button.Effect>
+                    <Image Source="Graphics/poland_flag.png" Width="310" Height="310"/>
+                </Button>
+                <Button Width="320" Height="320" Margin="20" Background="black" BorderBrush="black" BorderThickness="4" Click="Language_Click" Tag="en">
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="50" Color="Black"/>
+                    </Button.Effect>
+                    <Image Source="Graphics/uk_flag.png" Width="310" Height="310"/>
+                </Button>
+                <Button Width="320" Height="320" Margin="20" Background="black" BorderBrush="black" BorderThickness="3" Click="Language_Click" Tag="de">
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="50" Color="Black"/>
+                    </Button.Effect>
+                    <Image Source="Graphics/germany_flag.png" Width="310" Height="310"/>
+                </Button>
+            </StackPanel>
+        </StackPanel>
 
     </Grid>
 </Window>

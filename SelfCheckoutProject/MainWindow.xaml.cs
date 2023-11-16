@@ -23,6 +23,22 @@ namespace SelfCheckoutProject
         public MainWindow()
         {
             InitializeComponent();
+
+            // Pełny ekran bez obramowania
+            WindowState = WindowState.Maximized;
+            WindowStyle = WindowStyle.None;
+        }
+
+        private void Language_Click(object sender, RoutedEventArgs e)
+        {
+            Button clickedButton = sender as Button;
+
+            string selectedLanguage = clickedButton.Tag.ToString();
+
+            SecondWindow secondWindow = new SecondWindow(selectedLanguage);
+            secondWindow.Show();
+            this.Hide();
+
         }
     }
 }

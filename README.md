@@ -19,7 +19,7 @@ Aplikacja Kasa Samoobsługowa ma na celu dostarczenie prostego i intuicyjnego na
 
 ### 3. Obsługa Kilku Języków
 
-- Umożliwienie użytkownikowi wyboru języka interfejsu (polski, angielski, niemiecki). (W trakcie..)
+- Umożliwienie użytkownikowi wyboru języka interfejsu (polski, angielski, niemiecki).
 - Wprowadzenie wielojęzyczności dla lepszej dostępności. (W trakcie..)
 
 ## Technologie
@@ -36,9 +36,13 @@ Aplikacja Kasa Samoobsługowa ma na celu dostarczenie prostego i intuicyjnego na
 
 ## Zmiany w Wersji
 
-### 0.0.1 (2023-11-16)
+### 0.0.1 (2023-11-15)
 
 - Rozpoczęcie pracy nad projektem i całą logiką.
+
+### 0.0.2 (2023-11-16)
+
+- Utworzenie okna startowego, które umożliwia wybranie jednego z trzech języków.
 
 ## Kontakt
 

@@ -7,4 +7,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Graphics\germany_flag.png" />
+    <None Remove="Graphics\poland_flag.png" />
+    <None Remove="Graphics\uk_flag.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Graphics\germany_flag.png" />
+    <Resource Include="Graphics\poland_flag.png" />
+    <Resource Include="Graphics\uk_flag.png" />
+  </ItemGroup>
+
 </Project>
