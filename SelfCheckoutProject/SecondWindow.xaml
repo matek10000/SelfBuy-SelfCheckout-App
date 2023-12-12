@@ -16,7 +16,7 @@
                     </Button.Effect>
                     <Image Source="Graphics/eat_here.png" Width="310" Height="310"/>
                 </Button>
-                <Button Width="320" Height="320" Margin="100" Background="Transparent" BorderBrush="black" BorderThickness="4" Click="Eat_Click" Tag="away">
+                <Button Width="320" Height="320" Margin="100" Background="Transparent" BorderBrush="black" BorderThickness="4" Click="Take_Click" Tag="away">
                     <Button.Effect>
                         <DropShadowEffect BlurRadius="50" Color="White"/>
                     </Button.Effect>

@@ -19,6 +19,7 @@ namespace SelfCheckoutProject
     /// </summary>
     public partial class SecondWindow : Window
     {
+        private string selectedLanguage;
         public SecondWindow(string language)
         {
             InitializeComponent();
@@ -28,10 +29,9 @@ namespace SelfCheckoutProject
             WindowStyle = WindowStyle.None;
 
 
-            string selectedLanguage = language;
-            this.Title = $"Second Window - {selectedLanguage.ToUpper()}";
+            selectedLanguage = language;
 
-            WhereToEat_text.Text = Translator(selectedLanguage);
+            Translator(selectedLanguage);
 
         }
 
@@ -54,7 +54,18 @@ namespace SelfCheckoutProject
 
         private void Eat_Click(object sender, RoutedEventArgs e)
         {
+            bool takeaway = false;
+            ShopMain shopMain = new ShopMain(selectedLanguage, takeaway);
+            shopMain.Show();
+            this.Hide();
+        }
 
+        private void Take_Click(object sender, RoutedEventArgs e)
+        {
+            bool takeaway = true;
+            ShopMain shopMain = new ShopMain(selectedLanguage, takeaway);
+            shopMain.Show();
+            this.Hide();
         }
     }
 }
